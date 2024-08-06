@@ -1,0 +1,23 @@
+body {
+
+    background-image: url('MicrosoftTeams-image.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: cover;
+    background-attachment: scroll; 
+   
+}
+div.myButton input {
+    background: url('pudim.png') no-repeat;
+    background-size: 90px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    border: none;
+    position: absolute;
+  }
+
+
+ 
