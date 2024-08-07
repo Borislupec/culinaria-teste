@@ -1,0 +1,53 @@
+body {
+
+    background-image: url('../entrada/home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: cover;
+    background-attachment: scroll; 
+   
+}
+
+img.titulo{
+    width: 50%;
+    position:absolute;
+    top:35%;
+    left:25%;
+}
+
+img.pudim{
+    width: 45%;
+    position:absolute;
+    top:45%;
+    left:27%;
+}
+
+img.opções{
+    width: 45%;
+    position:absolute;
+    top:101%;
+    left:27%;
+}
+
+img.info{
+    width: 45%;
+    position:absolute;
+    top:114%;
+    left:27%;
+}
+
+img.autor{
+    width: 13%;
+    position:absolute;
+    top:130%;
+    left:27%;
+}
+
+img.descrição{
+    width: 25%;
+    position:absolute;
+    top:130%;
+    left:27%;
+}
