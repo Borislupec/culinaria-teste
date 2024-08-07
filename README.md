@@ -1,7 +1,14 @@
-dados de login:
-nome
-foto de perfil
-senha
+Dados de login:
+-nome
+-senha
+-foto de perfil(padrão do site, n necessário)
+
+comentário
+-nome
+-foto do perfil
+-comentário
+
+////
 
 dados que o usuário ira enviar ao site
 
