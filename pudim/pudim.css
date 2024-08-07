@@ -13,21 +13,21 @@ body {
 img.titulo{
     width: 50%;
     position:absolute;
-    top:35%;
+    top:37%;
     left:25%;
 }
 
 img.pudim{
     width: 45%;
     position:absolute;
-    top:45%;
+    top:48%;
     left:27%;
 }
 
 img.opções{
     width: 45%;
     position:absolute;
-    top:101%;
+    top:103%;
     left:27%;
 }
 
@@ -41,13 +41,27 @@ img.info{
 img.autor{
     width: 13%;
     position:absolute;
-    top:130%;
+    top:135%;
     left:27%;
 }
 
 img.descrição{
     width: 25%;
     position:absolute;
-    top:130%;
+    top:135%;
+    left:47%;
+}
+
+img.ingredientes{
+    width: 45%;
+    position:absolute;
+    top:170%;
+    left:27%;
+}
+
+img.modo{
+    width: 45%;
+    position:absolute;
+    top:220%;
     left:27%;
 }
