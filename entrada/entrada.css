@@ -1,6 +1,6 @@
 body {
 
-    background-image: url('MicrosoftTeams-image.png');
+    background-image: url('1fundo.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -9,6 +9,68 @@ body {
     background-attachment: scroll; 
    
 }
+
+div.myButton input {
+    background: url('1pudim.png') no-repeat;
+    background-size: 430px;
+    width: 430px;
+    height: 430px;
+    top: 75%;
+    left: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    position: absolute
+}
+
+div.myButton2 input {
+    background: url('1strogonoff.png') no-repeat;
+    background-size: 430px;
+    width: 430px;
+    height: 430px;
+    top: 115%;
+    left: 10%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    position: absolute
+}
+
+div.myButton3 input {
+    background: url('1bolo.png') no-repeat;
+    background-size: 430px;
+    width: 430px;
+    height: 430px;
+    top: 75%;
+    left: 55%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    position: absolute
+}
+
+div.myButton4 input {
+    background: url('1pizza.png') no-repeat;
+    background-size: 430px;
+    width: 430px;
+    height: 430px;
+    top: 115%;
+    left: 55%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    position: absolute
+}
+
+
+
+
+
+/*
 div.myButton input {
     background: url('pudim.png') no-repeat;
     background-size: 90px;
@@ -17,7 +79,6 @@ div.myButton input {
     cursor: pointer;
     border: none;
     position: absolute;
-  }
-
+  }*/
 
  
