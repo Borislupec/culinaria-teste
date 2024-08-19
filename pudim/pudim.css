@@ -1,0 +1,102 @@
+body {
+
+    background-image: url('../entrada/home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: cover;
+    background-attachment: scroll; 
+   
+}
+
+img.titulo{
+    width: 50%;
+    position:absolute;
+    top:37%;
+    left:25%;
+}
+
+img.pudim{
+    width: 45%;
+    position:absolute;
+    top:48%;
+    left:27%;
+}
+
+img.opções{
+    width: 45%;
+    position:absolute;
+    top:103%;
+    left:27%;
+}
+
+img.info{
+    width: 45%;
+    position:absolute;
+    top:114%;
+    left:27%;
+}
+
+img.autor{
+    width: 13%;
+    position:absolute;
+    top:135%;
+    left:27%;
+}
+
+img.descrição{
+    width: 25%;
+    position:absolute;
+    top:135%;
+    left:47%;
+}
+
+img.ingredientes{
+    width: 45%;
+    position:absolute;
+    top:170%;
+    left:27%;
+}
+
+img.modo{
+    width: 45%;
+    position:absolute;
+    top:220%;
+    left:27%;
+}
+
+img.comentario{
+    width: 15%;
+    position:absolute;
+    top:328%;
+    left:27%;   
+}
+
+img.icone{
+    width: 4%;
+    position:absolute;
+    top:337%;
+    left:27%;   
+}
+
+input.caixa{
+    width: 20%;
+    position:absolute;
+    top:339%;
+    left:33%; 
+}
+
+div.publicar input {
+    background: url('publicar.png') no-repeat;
+    background-size: 125px;
+    width: 430px;
+    height: 430px;
+    top: 381%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    position: absolute
+}
