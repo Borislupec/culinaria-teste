@@ -1,6 +1,6 @@
 body {
 
-    background-image: url('home.png');
+    background-image: url('1home.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -80,7 +80,7 @@ div.myButton5 input {
 }
 div.myButton6 input {
     background: no-repeat;
-    background-color:blue;
+    background-color:transparent;
     top: 20.5%;
     left: 3.5%;
     background-size: 90px;
