@@ -65,3 +65,38 @@ img.modo{
     top:220%;
     left:27%;
 }
+
+img.comentario{
+    width: 15%;
+    position:absolute;
+    top:328%;
+    left:27%;   
+}
+
+img.icone{
+    width: 4%;
+    position:absolute;
+    top:337%;
+    left:27%;   
+}
+
+input.caixa{
+    width: 20%;
+    position:absolute;
+    top:339%;
+    left:33%; 
+}
+
+div.publicar input {
+    background: url('publicar.png') no-repeat;
+    background-size: 125px;
+    width: 430px;
+    height: 430px;
+    top: 381%;
+    left: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    cursor: pointer;
+    border: none;
+    position: absolute
+}
