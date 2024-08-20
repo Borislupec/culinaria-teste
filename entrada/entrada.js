@@ -1,6 +1,10 @@
 document.getElementById("pudim").onclick = function () {
-    location.href = "../pudim/pudim.html";
+    location.href = "../receitas/pudim/pudim.html";
 }
+document.getElementById("bolo").onclick = function () {
+    location.href = "../receitas/bolo/bolo.html";
+}
+
 document.getElementById("enviar").addEventListener("click", function() {
     location.href = "../botao/botao.html";
 });

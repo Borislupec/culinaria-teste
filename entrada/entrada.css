@@ -1,6 +1,6 @@
 body {
 
-    background-image: url('1home.png');
+    background-image: url('imagens/home.png');
     background-size: cover;
     background-repeat: no-repeat;
     height: 100%;
@@ -11,7 +11,7 @@ body {
 }
 
 div.myButton input {
-    background: url('1pudim.png') no-repeat;
+    background: url('imagens/pudim.png') no-repeat;
     background-size: 430px;
     width: 430px;
     height: 430px;
@@ -25,7 +25,7 @@ div.myButton input {
 }
 
 div.myButton2 input {
-    background: url('1strogonoff.png') no-repeat;
+    background: url('imagens/strogonoff.png') no-repeat;
     background-size: 430px;
     width: 430px;
     height: 430px;
@@ -39,7 +39,7 @@ div.myButton2 input {
 }
 
 div.myButton3 input {
-    background: url('1bolo.png') no-repeat;
+    background: url('imagens/bolo.png') no-repeat;
     background-size: 430px;
     width: 430px;
     height: 430px;
@@ -53,7 +53,7 @@ div.myButton3 input {
 }
 
 div.myButton4 input {
-    background: url('1pizza.png') no-repeat;
+    background: url('imagens/pizza.png') no-repeat;
     background-size: 430px;
     width: 430px;
     height: 430px;
