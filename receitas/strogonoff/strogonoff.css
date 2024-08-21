@@ -1,0 +1,67 @@
+body {
+
+    background-image: url('/entrada/imagens/home.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: cover;
+    background-attachment: scroll; 
+   
+}
+
+img.titulo{
+    width: 50%;
+    position:absolute;
+    top:37%;
+    left:25%;
+}
+
+img.imagem{
+    width: 45%;
+    position:absolute;
+    top:50%;
+    left:27%;
+}
+
+img.opcoes{
+    width: 45%;
+    position:absolute;
+    top:103%;
+    left:27%;
+}
+
+img.info{
+    width: 45%;
+    position:absolute;
+    top:114%;
+    left:27%;
+}
+
+img.autor{
+    width: 13%;
+    position:absolute;
+    top:135%;
+    left:27%;
+}
+
+img.descricao{
+    width: 25%;
+    position:absolute;
+    top:135%;
+    left:47%;
+}
+
+img.ingredientes{
+    width: 45%;
+    position:absolute;
+    top:155%;
+    left:27%;
+}
+
+img.modo{
+    width: 45%;
+    position:absolute;
+    top:205%;
+    left:27%;
+}
