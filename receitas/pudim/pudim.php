@@ -5,14 +5,15 @@ $password="";
 $db_name="banco";
 $connect= mysqli_connect($servername,$username,$password,$db_name);
 
-session_start();    
-
 if (!$connect) {
     die("Connection failed: " . mysqli_connect_error());
   }
- 
-$_SESSION['nome']='$nome';
-$id= "SELECT id from usuarios WHERE nome = '$nome';";
+
+require 'login/login.php';
+
+$_SESSION["nome"];
+
+$id= "SELECT id from usuarios WHERE nome = '$_SESSION';";
 $id_usuario=$id;
 $comentario=$_POST['comentario'];
 $sql = "INSERT INTO comentarios(id,comentario) VALUES ('$id_usuario','$comentario');";
