@@ -18,6 +18,7 @@ $resultado = mysqli_query($connect, $verificar);
 if (mysqli_num_rows($resultado) > 0){
     header('Location: ../entrada/entrada.html');
 } else{
-    echo "Nome e/ou senha incorretas!";
+    echo"<script>alert('Nome e/ou senha incorretas!');window.location.href='../login/login.html';</script>";
 }
+    
 ?>

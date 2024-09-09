@@ -16,7 +16,7 @@ $resultado = mysqli_query($connect, $verificar);
 $verificar2 = "SELECT * FROM usuarios WHERE nome and senha = '$nome' and '$senha'";
 
 if (mysqli_num_rows($resultado) > 0){
-    echo "Nome de usuario já existente :/";
+    echo"<script>alert('Nome de usuario já existente :/');window.location.href='../registro/registro.html';</script>";
 } else{
     $inserir = "INSERT INTO usuarios(nome,senha) VALUES ('$nome','$senha');";
     $sql = mysqli_query($connect,$inserir);
