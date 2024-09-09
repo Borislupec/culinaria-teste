@@ -11,13 +11,14 @@ if (!$connect) {
 
 $nome=$_POST['nome'];
 $senha=$_POST['senha'];
-$verificar = "SELECT * FROM usuarios WHERE nome and senha = '$nome' and '$senha'";
+$verificar = "SELECT nome FROM usuarios WHERE senha = '$senha'";
 $resultado = mysqli_query($connect, $verificar);
 
 
-if (mysqli_num_rows($resultado) < 1){
+if (mysqli_num_rows($resultado) > 0){
     header('Location: ../entrada/entrada.html');
 } else{
-    echo "Nome e/ou senha incorretas!";
+    echo"<script>alert('Nome e/ou senha incorretas!');window.location.href='../login/login.html';</script>";
 }
+    
 ?>
