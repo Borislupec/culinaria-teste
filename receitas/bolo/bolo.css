@@ -181,3 +181,18 @@ div.myButton14 input {
     border: 0;
     position: absolute;
 }
+button {
+    width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+
+}

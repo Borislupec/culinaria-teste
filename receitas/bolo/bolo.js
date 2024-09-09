@@ -1,3 +1,6 @@
+document.getElementById("voltar").addEventListener("click", function() {
+    location.href = "../../entrada/entrada.html";
+})
 document.getElementById("envia").addEventListener("click", function() {
     location.href = "../bolo/bolo-copia.html";
 });

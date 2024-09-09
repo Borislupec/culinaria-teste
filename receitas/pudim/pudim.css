@@ -64,7 +64,7 @@ img.modo{
     position:absolute;
     top:220%;
     left:27%;
-<<<<<<< HEAD
+
 }
 
 img.comentario{
@@ -216,6 +216,19 @@ div.myButton14 input {
     cursor: pointer;
     border: 0;
     position: absolute;
-=======
->>>>>>> 4b4c7a4461870669d4faadeeb4306f5babf84f0f
+}
+button {
+    width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+
 }
