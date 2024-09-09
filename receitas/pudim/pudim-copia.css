@@ -1,0 +1,28 @@
+body {
+
+    background-image: url('1pudim.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position: cover;
+    background-attachment: scroll; 
+   
+}
+
+
+button {
+    width: 100px;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    position: absolute;
+    top: 64%;
+    left: 47%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+
+}
