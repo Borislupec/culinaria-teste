@@ -101,6 +101,19 @@ div.publicar input {
     border: none;
     position: absolute
 }
+div.myButton5 input {
+    background: no-repeat;
+    background-color:white;
+    top: 2%;
+    left: 86.5%;
+    border-radius: 100%;
+    background-size: 90px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+}
 div.myButton6 input {
     background: no-repeat;
     background-color:transparent;
@@ -220,7 +233,7 @@ div.myButton14 input {
 button {
     width: 100px;
     padding: 10px;
-    background-color: #4CAF50;
+    background-color: rgb(255, 94, 0);
     color: white;
     position: absolute;
     top: 35%;
@@ -232,3 +245,18 @@ button {
 
 
 }
+#txtBusca{
+    
+    float:center;
+    top:5.95% ;
+    left: 32.7%;
+    border-radius: 50px;
+    background-color:white;
+    position: absolute;
+    padding-right:5px;
+    font-style:arial;
+    font-size:18px;
+    border:none;
+    height:40px;
+    width: 450px;
+  }
