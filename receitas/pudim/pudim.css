@@ -13,21 +13,14 @@ body {
 img.titulo{
     width: 50%;
     position:absolute;
-    top:37%;
+    top:40%;
     left:25%;
 }
 
 img.pudim{
     width: 45%;
     position:absolute;
-    top:48%;
-    left:27%;
-}
-
-img.opcoes{
-    width: 45%;
-    position:absolute;
-    top:103%;
+    top:50%;
     left:27%;
 }
 
@@ -64,4 +57,165 @@ img.modo{
     position:absolute;
     top:220%;
     left:27%;
+
 }
+
+div.myButton5 input {
+    background: no-repeat;
+    background-color:white;
+    top: 2%;
+    left: 86.5%;
+    border-radius: 100%;
+    background-size: 90px;
+    width: 90px;
+    height: 90px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+}
+div.myButton6 input {
+    background: no-repeat;
+    background-color:transparent;
+    top: 20.5%;
+    left: 3.5%;
+    background-size: 90px;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+}
+
+div.myButton7 input {
+    background: no-repeat;
+    background-color:transparent;
+    top: 20.5%;
+    left: 14.7%;
+    background-size: 90px;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+}
+
+div.myButton8 input {
+    background: no-repeat;
+    background-color:transparent;
+    top: 20.5%;
+    left: 26%;
+    background-size: 90px;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+}
+
+div.myButton9 input {
+    background: no-repeat;
+    background-color:transparent;
+    top: 20.6%;
+    left: 36%;
+    background-size: 90px;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+}
+
+div.myButton10 input {
+    background: no-repeat;
+    background-color:transparent;
+    top: 20.6%;
+    left: 48%;
+    background-size: 90px;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+}
+
+div.myButton11 input {
+    background: no-repeat;
+    background-color:transparent;
+    top: 20.6%;
+    left: 58.2%;
+    background-size: 90px;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+}
+
+div.myButton12 input {
+    background: no-repeat;
+    background-color:transparent;
+    top: 20.6%;
+    left: 68.2%;
+    background-size: 90px;
+    width: 90px;
+    height: 60px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+}
+
+div.myButton13 input {
+    background: no-repeat;
+    background-color:transparent;
+    top: 20.6%;
+    left: 78%;
+    background-size: 90px;
+    width: 112px;
+    height: 60px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+}
+
+div.myButton14 input {
+    background: no-repeat;
+    background-color:transparent;
+    top: 20%;
+    left: 90%;
+    background-size: 90px;
+    width: 112px;
+    height: 60px;
+    cursor: pointer;
+    border: 0;
+    position: absolute;
+}
+button {
+    width: 100px;
+    padding: 10px;
+    background-color: rgb(255, 94, 0);
+    color: white;
+    position: absolute;
+    top: 35%;
+    left: 2%;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+
+}
+#txtBusca{
+    
+    float:center;
+    top:5.95% ;
+    left: 32.7%;
+    border-radius: 50px;
+    background-color:white;
+    position: absolute;
+    padding-right:5px;
+    font-style:arial;
+    font-size:18px;
+    border:none;
+    height:40px;
+    width: 450px;
+  }
